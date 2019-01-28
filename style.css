@@ -12,7 +12,6 @@ body {
 }
 .logo {
   display: block;
-  padding: 1rem 0;
 }
 .header-nav {
   list-style: none;
@@ -25,10 +24,11 @@ body {
   float: right;
   color: rgb(150, 150, 150);
 }
-.header-nav,
-.social-links {
-  display: inline-block;
-  margin-right: 20px;
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: rgb(150, 150, 150);
 }
 .fa-facebook:hover {
   color: #3b5998;
