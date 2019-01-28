@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,800");
+
+* {
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.row {
+  padding: 1.5rem;
+}
+.logo {
+  display: block;
+  padding: 1rem 0;
+}
+.header-nav {
+  list-style: none;
+  float: left;
+}
+.social-links li {
+  font-size: 2rem;
+  margin-right: 1rem;
+  list-style: none;
+  float: right;
+  color: rgb(150, 150, 150);
+}
+.header-nav,
+.social-links {
+  display: inline-block;
+  margin-right: 20px;
+}
+.fa-facebook:hover {
+  color: #3b5998;
+}
+.fa-twitter:hover {
+  color: #55acee;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+}
+.fa-linkedin:hover {
+  color: #007bb5;
+}
+.fa-pinterest:hover {
+  color: #bd081c;
+}
+.fa-instagram:hover {
+  color: #517fa4;
+}
+
+/*--------------------*/
+/* NAVBAR */
+/*--------------------*/
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-link:hover {
+  transition: 0.3s;
+  color: rgb(179, 179, 179);
+}
+.header {
+  align-items: center;
+  padding: 0.5rem 2.5rem;
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+/* -------------------- */
+/* JUMBOTRON 1 */
+/* -------------------- */
+.carousel {
+  margin: 0.5rem 0;
+}
+/* --------------------
+/* JUMBOTRON 2 */
+/* -------------------- */
+.sec-services {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sec-services i {
+  display: block;
+  font-size: 5rem;
+  color: #141c24;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.sec-services h4 {
+  color: #fff;
+  text-align: center;
+}
+.sec-services p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.partners a {
+  padding-right: 75px;
+}
+.partners__img1 {
+  width: 159px;
+  height: 60px;
+}
+.partners__img2 {
+  width: 166px;
+  height: 52px;
+}
+.partners__img3 {
+  width: 90px;
+  height: 73px;
+}
+.partners__img4 {
+  width: 57px;
+  height: 81px;
+}
+.partners__img5 {
+  width: 90px;
+  height: 90px;
+}
+.partners__img6 {
+  width: 90px;
+  height: 80px;
+}
+/* -------------------- */
+/* JUMBOTRON 3 */
+/* -------------------- */
+.choose {
+  background-color: #c3cfe2;
+  padding: 2rem;
+}
+.img6 {
+  padding-right: 3rem;
+}
+.block {
+  display: block;
+  flex: right;
+}
+/* --------------------
+/* FOOTER */
+/* -------------------- */
+footer {
+  padding: 50px;
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #243b55, #141e30);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
